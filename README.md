@@ -131,7 +131,16 @@ There are many instances of why an account might need to be disabled and enabled
 
 ![72194312-6A08-4AF5-87F6-01C2523AE6F7_1_201_a](https://github.com/user-attachments/assets/255b78e8-f339-45d8-a23c-c1d8fe4f4571)
 
-As the admin I then had to reenable the account.
+As the admin, I then had to reenable the account.
+
+<h2>Security</h2>
+As the admin, I can monitor events within the domain. This included
+
+- Logins
+- log outs
+- Password changes
+- Account creations
+
 
 
 
