@@ -37,6 +37,45 @@ I was then able to change the Client VM's DNS server to the Domain VM IP address
 <img width="3024" height="1964" alt="6BA74D52-774D-454C-A760-BE6F0C087359" src="https://github.com/user-attachments/assets/e9afe5c7-54d7-4ea3-90b7-1c305194e782" />
 <img width="3024" height="1964" alt="6C8D8C2D-14BB-49BF-A72C-5A977A24A735" src="https://github.com/user-attachments/assets/0c33988e-0d6c-466a-ae10-0181e23b4a4e" />
 
+As of now, the two VMs were essentially just computers. Outside of the seignated names of the VMs, there wasn't anything special about them. This is when I begin to set up the Domain Controller VM. 
+
+I first had to add the Active Directory feature to the VM. I did this by adding roles and features. I then was able to check off "Active Directory and Domain Services." 
+<img width="1512" height="982" alt="EFF6A13D-5705-49FB-AAA8-0E82917C4324" src="https://github.com/user-attachments/assets/9204c040-09a0-440e-9597-58598bbad85d" />
+<img width="1512" height="982" alt="DDF8950F-6504-4564-AB93-BA6B8772C0C2" src="https://github.com/user-attachments/assets/18817905-729e-4627-8f56-89d954a5139c" />
+<img width="1512" height="982" alt="9EA2F8ED-6B55-4FBC-8A41-4657B878E720" src="https://github.com/user-attachments/assets/55a3db42-208e-477a-b67a-18a1ca681119" />
+
+This allowed me to configure the domain I will be working from. I added a new forest as Mydomain.com 
+![5FA7F2CB-01BA-41A5-8F90-85DB361685DD_1_105_c](https://github.com/user-attachments/assets/2614b478-311b-490b-8a99-ab21e5c241a7) 
+
+I created a new organizational group for employees that will be used later. 
+This is where all of the employees' information will be held once added.  
+![FBB40A33-4A23-47EC-AE74-4BDB75A88450_1_201_a](https://github.com/user-attachments/assets/c738b343-d5a5-4642-a7d5-81edb012b840)
+
+Next, I created a separate organizational group for admins.
+![24A51FC2-F636-4093-9980-E684EBFB3111_1_201_a](https://github.com/user-attachments/assets/9ae4231c-feaf-4ee0-b1f9-8e31380151dc)
+
+The Admin's role was vacant, so I began to create my admin.
+![14D99E6D-D113-4515-8E06-94AD473E95E6_1_105_c](https://github.com/user-attachments/assets/d154cbf5-454f-49ef-8f3e-a7b2b50ee970)
+
+I created the admin Jane Doe. This required her credentials and a username
+![6118E0D7-8A0A-49AB-945A-50956115D41C_1_105_c](https://github.com/user-attachments/assets/38839d57-4847-4c91-8e9c-628ed7d48a64)
+![C468821E-1104-4735-99C2-203DCCEFF7CD_1_201_a](https://github.com/user-attachments/assets/409ea321-89b7-451c-87fa-c08562606702)
+
+Now with an admin, I had the access to the client VM to the domain. 
+![C545DF53-2D1A-4095-B88E-EA9A94E19F52_1_105_c](https://github.com/user-attachments/assets/ba2772be-53e5-483a-8cd0-80496f9acd28)
+<img width="1512" height="982" alt="485EED98-BC98-4D94-878C-9241C9A134D5" src="https://github.com/user-attachments/assets/b0c41807-d755-49f9-b2aa-a890a569b410" />
+![D6832A57-42EE-4472-89D7-58D4AFAF1B77_1_201_a](https://github.com/user-attachments/assets/a4a93e3b-0b9b-49dc-b33e-67891f105304)
+![17F5941A-EB8D-451D-84E6-0B2F2BE4743B_1_105_c](https://github.com/user-attachments/assets/fc93c043-2891-43c2-99ca-3b7c41d64e74)
+
+
+
+
+
+
+
+
+
+
 
 
 
