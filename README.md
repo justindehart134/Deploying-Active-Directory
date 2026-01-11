@@ -69,20 +69,28 @@ Now with an admin, I had the access to the client VM to the domain.
 
 
 
+<h2>Creating Users with Powershell</h2>
 
+As Jane, I allowed all users within the domain to access the Client VM
+![BE2FFB4F-CDE4-449D-8307-C7D77457BBE2_1_201_a](https://github.com/user-attachments/assets/0912239e-db52-49a8-9ce8-4ce78b7a211e)
+![9514C335-752B-4E48-A48C-A0330DE00853_1_201_a](https://github.com/user-attachments/assets/7ef3075c-3900-442b-9e2b-0f7de566cbe4)
 
+As of this moment, the only user was Jane Doe. To add more users, I ran a script that would add 10,000 unique users with their own credentials and a password to their accounts. 
+<img width="1512" height="982" alt="F9B76E09-7702-4F5E-9C6A-025FB3B5151E" src="https://github.com/user-attachments/assets/b643d194-3ce0-4700-95d5-70d1ddb2f7ab" />
+<img width="1512" height="982" alt="DF1852AC-A2A9-40E6-B862-F09041E8E624" src="https://github.com/user-attachments/assets/a749248d-7512-47c8-aa2c-5cc5264b0d6b" />
 
+The users were automatically placed into the Employees organizational group. 
+<img width="1512" height="982" alt="9D445CDD-3422-4DFE-805B-4E263F878013" src="https://github.com/user-attachments/assets/cade855c-117b-4497-a9d1-754d7a471c93" />
 
-
-
-
+I could now log into the client VM as any user within the domain. 
+<img width="1512" height="982" alt="CC4B0B80-4E6F-43B5-AEB8-3E8C2A1DF37A" src="https://github.com/user-attachments/assets/8420d47c-db4a-45ce-9447-a1788a447d97" />
 
 
 
 
 <h2>Admin account</h2>
 
-I created an admin account under the credentials Jane Doe. This allowed me to simulate common acts in IT such as 
+Earlier, I created an admin account under the credentials Jane Doe. This allowed me to simulate common acts in IT such as 
 - Password resets
 - Account locking
 - Account enabling
